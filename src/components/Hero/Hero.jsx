@@ -15,7 +15,7 @@ function Hero() {
           <h2>Top 1% Locations Worldwide</h2>
           <div className="form">
             <div>
-              <input type="text"  placeholder='Search Detination'/>
+              <input type="text"  placeholder='Search Destination'/>
             </div>
 
             <div>

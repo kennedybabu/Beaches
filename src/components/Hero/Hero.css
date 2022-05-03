@@ -51,6 +51,7 @@
     margin: 0 auto;
 }
 
+
 .form input[type='text'] {
     border: transparent;
     background-color: transparent;
@@ -63,7 +64,6 @@
 .form input[type='text']:focus {
     outline: none;
 }
-
 
 
 @media screen and (max-width: 940px) {
