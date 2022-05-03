@@ -7,10 +7,18 @@ import Travel2 from '../../assets/travl2.jpg'
 import Travel from '../../assets/trvl.jpg'
 import Maldives from '../../assets/maldives3.jpg'
 
+import SelectsImg from '../SelectsImg/SelectsImg'
+
 function Selects() {
   return (
-    <div>
-        heyyy
+    <div className='selects'>
+        <SelectsImg bgImg={Bali} text='Bali' />
+        <SelectsImg bgImg={Italy} text='Italy' />
+        <SelectsImg bgImg={Travel1} text='Maldives' />
+        <SelectsImg bgImg={Travel} text='Morocco' />
+        <SelectsImg bgImg={Travel2} text='Nyali' />
+        <SelectsImg bgImg={Maldives} text='Jurassic' />
+
     </div>
   )
 }
