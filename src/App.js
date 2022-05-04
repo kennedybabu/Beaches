@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './components/Carousel/Carousel';
+import CarouselImg from './components/Carousel/CarouselImg';
 import Destinations from './components/Destinations/Destinations';
 import Hero from './components/Hero/Hero';
 import Navbar from './components/Navbar/Navbar';
@@ -14,7 +14,7 @@ function App() {
       <Destinations />
       <Search />
       <Selects />
-      <Carousel />
+      <CarouselImg />
     </div>
   );
 }
