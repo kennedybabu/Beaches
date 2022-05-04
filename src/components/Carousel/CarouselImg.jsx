@@ -8,10 +8,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CarouselImg() {
   return (
-    <Carousel>
+    <div className="container">
+       <Carousel className='carousel' showArrows={true} autoPlay={true} infiniteLoop={true}>
         <div>
             <img src={Travel2} alt="/" />
-            <p>legend</p>
         </div>
         <div>
             <img src={Travel} alt="/" />
@@ -19,7 +19,9 @@ function CarouselImg() {
         <div>
             <img src={Maldives} alt="/" />
         </div>
-    </Carousel>
+      </Carousel>
+    </div>
+   
   )
 }
 
