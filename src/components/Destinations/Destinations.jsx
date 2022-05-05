@@ -8,7 +8,7 @@ import './Destinations.css'
 
 function Destinations() {
   return (
-    <div className='destinations'>
+    <div name='destinations' className='destinations'>
         <div className="container">
             <h1>All-Inlcusive Resorts</h1>
             <p>On the Caribbean's Best Beaches</p>

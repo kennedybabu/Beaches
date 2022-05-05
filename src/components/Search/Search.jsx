@@ -4,7 +4,7 @@ import GoldBand from '../../assets/gold.png'
 
 function Search() {
   return (
-    <div className='search'>
+    <div className='search' name='book'>
         <div className="container">
             <div className="left">
                 <h2>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h2>

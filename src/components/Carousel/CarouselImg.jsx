@@ -8,7 +8,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function CarouselImg() {
   return (
-    <div className="container">
+    <div className="container" name='carousel'>
        <Carousel className='carousel' showArrows={true} autoPlay={true} infiniteLoop={true}>
         <div>
             <img src={Travel2} alt="/" />

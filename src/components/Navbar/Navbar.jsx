@@ -5,6 +5,7 @@ import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { AiOutlineClose } from 'react-icons/ai'
 import './Navbar.css'
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaPinterest } from 'react-icons/fa'
+import {Link} from 'react-scroll'
 
 function Navbar() {
 
@@ -13,17 +14,17 @@ function Navbar() {
     const handleNav = () => setNav(!nav)
 
   return (
-    <div className={nav ? 'navbar navbar-lg' : 'navbar'}>
+    <div className={nav ? 'navbar navbar-lg' : 'navbar'} name='home'>
         <div className={nav ? 'logo dark' : 'logo'}>
             <h2>BEACHES.</h2>
         </div>
             
             <ul className="nav-menu">
-                <li>Home</li>
-                <li>Destinations</li>
-                <li>Travel</li>
-                <li>Book</li>
-                <li>Views</li>
+                <Link to='home' smooth={true} duration={500}>Home</Link>
+                <Link to='destinations' smooth={true} duration={500}>Destinations</Link>
+                <Link to='search' smooth={true} duration={500}>Travel</Link>
+                <Link to='search' smooth={true} duration={500}>Book</Link>
+                <Link to='views' smooth={true} duration={500}>Views</Link>                
             </ul>
 
             <div className="nav-icons">
@@ -36,12 +37,12 @@ function Navbar() {
             </div>
 
             <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
-                <ul className="mobile-nav">
-                    <li>Home</li>
-                    <li>Destinations</li>
-                    <li>Travel</li>
-                    <li>Book</li>
-                    <li>Views</li>
+                <ul className="mobile-nav">                  
+                    <Link to='home' smooth={true} duration={500}>Home</Link>
+                    <Link to='destinations' smooth={true} duration={500}>Destinations</Link>
+                    <Link to='search' smooth={true} duration={500}>Travel</Link>
+                    <Link to='search' smooth={true} duration={500}>Book</Link>
+                    <Link to='views' smooth={true} duration={500}>Views</Link>    
                 </ul>
 
                 <div className="mobile-menu-bottom">

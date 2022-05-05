@@ -11,7 +11,7 @@ import SelectsImg from '../SelectsImg/SelectsImg'
 
 function Selects() {
   return (
-    <div className='selects'>
+    <div className='selects' name='views'>
        <div className="container">
        <SelectsImg bgImg={Bali} text='Bali' />
         <SelectsImg bgImg={Italy} text='Italy' />
