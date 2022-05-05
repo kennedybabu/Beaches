@@ -17,7 +17,26 @@ function Footer() {
                     <FaYoutube className='icon' />
                 </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+                <div className="left">
+                    <ul>
+                        <li>About</li>
+                        <li>Partnerships</li>
+                        <li>Careers</li>
+                        <li>Newsroom</li>
+                        <li>Advertising</li>
+                    </ul>
+                </div>
+                <div className="right">
+                    <ul>
+                        <li>Contact</li>
+                        <li>Policy</li>
+                        <li>Tersm</li>
+                        <li>Privacy</li>
+                        <li>Pricing</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
     </div>
