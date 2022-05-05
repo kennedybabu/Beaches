@@ -20,11 +20,11 @@ function Navbar() {
         </div>
             
             <ul className="nav-menu">
-                <Link to='home' smooth={true} duration={500}>Home</Link>
-                <Link to='destinations' smooth={true} duration={500}>Destinations</Link>
-                <Link to='search' smooth={true} duration={500}>Travel</Link>
-                <Link to='search' smooth={true} duration={500}>Book</Link>
-                <Link to='views' smooth={true} duration={500}>Views</Link>                
+                <Link to='home' smooth={true} duration={500}><li>Home</li></Link>
+                <Link to='destinations' smooth={true} duration={500}><li>Destinations</li></Link>
+                <Link to='search' smooth={true} duration={500}><li>Travel</li></Link>
+                <Link to='search' smooth={true} duration={500}><li>Book</li></Link>
+                <Link to='views' smooth={true} duration={500}><li>Views</li></Link>                
             </ul>
 
             <div className="nav-icons">
